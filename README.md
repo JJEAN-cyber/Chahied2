@@ -1,9 +1,6 @@
-# Chahied2
-Développement d'une marketplace de vente de vêtements en ligne.
-
-Marketplace de Vente de Vêtements — Java MVC (Servlets + JSP)
+👗 Marketplace de Vente de Vêtements — Java MVC (Servlets + JSP)
 Application web monolithique Java développée avec Servlets, JSP et une architecture MVC, permettant aux utilisateurs d’acheter, vendre et rechercher des vêtements.
-Le projet inclut une messagerie interne, un panneau d’administration, un système de catégories, ainsi qu’une catégorie spéciale dédiée à l’échange de vêtements pendant les fêtes.
+Le projet inclut également une messagerie interne (non temps réel) et un panneau d’administration pour gérer le site.
 
 ✨ Fonctionnalités principales
 🛍️ Marketplace
@@ -12,9 +9,6 @@ Le projet inclut une messagerie interne, un panneau d’administration, un syst�
 - Consultation des annonces
 - Filtrage et recherche avancée
 - Gestion du profil vendeur
-- Espace “Catégories” pour organiser les vêtements
-- Catégorie spéciale “Échange de vêtements (Fêtes)” permettant aux utilisateurs d’échanger des articles pendant les périodes festives
-
 🔎 Barre de recherche
 - Recherche de vêtements par :
 - nom
@@ -22,21 +16,16 @@ Le projet inclut une messagerie interne, un panneau d’administration, un syst�
 - prix
 - mots‑clés
 - Recherche de profils utilisateurs
-- Recherche filtrée par catégorie, y compris la catégorie spéciale d’échange
-
 💬 Messagerie interne
 - Échanges entre utilisateurs
 - Messagerie asynchrone (pas de WebSocket)
 - Historique des conversations
-
 🛠️ Panneau administrateur
 - Tableau de bord administrateur
 - Gestion des utilisateurs
 - Gestion des annonces
-- Gestion des catégories (y compris la catégorie spéciale)
 - Modération (validation / suppression)
 - Vue d’ensemble de l’activité du site
-
 🔐 Sécurité & gestion
 - Authentification
 - Sessions utilisateurs
@@ -61,7 +50,7 @@ Chahied2/
 ├── src/
 │   ├── controllers/      -> Servlets (logique de contrôle)
 │   ├── dao/              -> Accès base de données
-│   ├── models/           -> Objets métiers (User, Product, Message, Category…)
+│   ├── models/           -> Objets métiers (User, Product, Message…)
 │   └── services/         -> Logique applicative
 │
 ├── webapp/
@@ -72,7 +61,7 @@ Chahied2/
 ├── database.sql          -> Script SQL (tables + données)
 └── README.md
 
-
+
 
 🚀 Installation & exécution
 1. Importer le projet dans un IDE Java
@@ -102,8 +91,6 @@ http://localhost:8080/Chahied2
 - Parcourir les vêtements disponibles
 - Mettre en vente ses propres articles
 - Utiliser la barre de recherche
-- Explorer les catégories
-- Accéder à la catégorie spéciale “Échange de vêtements (Fêtes)”
 - Envoyer des messages via la messagerie interne
 - Accéder au tableau de bord administrateur (si rôle Admin)
 
@@ -114,11 +101,11 @@ http://localhost:8080/Chahied2
 - Système d’avis et de notation
 - Version mobile responsive
 - Recommandations IA
-- Événements saisonniers supplémentaires (Halloween, été, rentrée…)
 
 👤 Auteur
 Jonathan
 Développeur Java (CDA) & apprenant Expert IA
+
 
 
 
