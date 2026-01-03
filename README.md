@@ -1,4 +1,4 @@
-👗 Marketplace de Vente de Vêtements — Java MVC (Servlets + JSP)
+👗 Marketplace de Vente de Vêtements — Java  J2EE MVC (Servlets + JSP)
 Application web monolithique Java développée avec Servlets, JSP et une architecture MVC, permettant aux utilisateurs d’acheter, vendre et rechercher des vêtements.
 Le projet inclut également une messagerie interne (non temps réel) et un panneau d’administration pour gérer le site.
 
